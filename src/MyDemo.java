@@ -1,4 +1,5 @@
 import java.awt.EventQueue;
+//这是一个测试
 
 import javax.swing.JFrame;
 import javax.swing.JMenuBar;
@@ -57,7 +58,7 @@ public class MyDemo {
 		JPanel panel_querySocres = new JPanel();
 		panel.add(panel_querySocres);
 		
-		//选课
+		//閫夎
 		JPanel panel_courseSelect_queryCourse = new JPanel();
 		panel.add(panel_courseSelect_queryCourse);
 		
@@ -89,7 +90,7 @@ public class MyDemo {
 		JMenuBar menuBar = new JMenuBar();
 		frame.setJMenuBar(menuBar);
 		
-		JMenu menu_homePage = new JMenu("我的首页");
+		JMenu menu_homePage = new JMenu("鎴戠殑棣栭〉");
 		menu_homePage.addMouseListener(new MouseAdapter() {
 			@Override
 			public void mouseClicked(MouseEvent arg0) {
@@ -100,7 +101,7 @@ public class MyDemo {
 		});
 		menuBar.add(menu_homePage);
 		
-		JMenu menu_querySocres = new JMenu("查询成绩");
+		JMenu menu_querySocres = new JMenu("鏌ヨ鎴愮哗");
 		menu_querySocres.addMouseListener(new MouseAdapter() {
 			@Override
 			public void mouseClicked(MouseEvent arg0) {
@@ -111,10 +112,10 @@ public class MyDemo {
 		});
 		menuBar.add(menu_querySocres);
 		
-		JMenu menu_courseSelect = new JMenu("选课系统");
+		JMenu menu_courseSelect = new JMenu("閫夎绯荤粺");
 		menuBar.add(menu_courseSelect);
 		
-		JMenuItem menuItem = new JMenuItem("查询选课");
+		JMenuItem menuItem = new JMenuItem("鏌ヨ閫夎");
 		menuItem.addMouseListener(new MouseAdapter() {
 			@Override
 			public void mousePressed(MouseEvent e) {
@@ -125,7 +126,7 @@ public class MyDemo {
 		});
 		menu_courseSelect.add(menuItem);
 		
-		JMenuItem menuItem_1 = new JMenuItem("开课列表");
+		JMenuItem menuItem_1 = new JMenuItem("寮�璇惧垪琛�");
 		menuItem_1.addMouseListener(new MouseAdapter() {
 			@Override
 			public void mousePressed(MouseEvent e) {
@@ -136,7 +137,7 @@ public class MyDemo {
 		});
 		menu_courseSelect.add(menuItem_1);
 		
-		JMenuItem menuItem_2 = new JMenuItem("已选课程");
+		JMenuItem menuItem_2 = new JMenuItem("宸查�夎绋�");
 		menuItem_2.addMouseListener(new MouseAdapter() {
 			@Override
 			public void mousePressed(MouseEvent e) {
@@ -147,7 +148,7 @@ public class MyDemo {
 		});
 		menu_courseSelect.add(menuItem_2);
 		
-		JMenu menu_trainPlan = new JMenu("培养方案");
+		JMenu menu_trainPlan = new JMenu("鍩瑰吇鏂规");
 		menu_trainPlan.addMouseListener(new MouseAdapter() {
 			@Override
 			public void mouseClicked(MouseEvent arg0) {
@@ -158,7 +159,7 @@ public class MyDemo {
 		});
 		menuBar.add(menu_trainPlan);
 		
-		JMenu menu_document = new JMenu("文档应用");
+		JMenu menu_document = new JMenu("鏂囨。搴旂敤");
 		menu_document.addMouseListener(new MouseAdapter() {
 			@Override
 			public void mouseClicked(MouseEvent arg0) {
@@ -169,7 +170,7 @@ public class MyDemo {
 		});
 		menuBar.add(menu_document);
 		
-		JMenu menu_search = new JMenu("搜索");
+		JMenu menu_search = new JMenu("鎼滅储");
 		menu_search.addMouseListener(new MouseAdapter() {
 			@Override
 			public void mouseClicked(MouseEvent arg0) {
@@ -180,7 +181,7 @@ public class MyDemo {
 		});
 		menuBar.add(menu_search);
 		
-		JMenu menu_userInfo = new JMenu("用户信息管理");
+		JMenu menu_userInfo = new JMenu("鐢ㄦ埛淇℃伅绠＄悊");
 		menu_userInfo.addMouseListener(new MouseAdapter() {
 			@Override
 			public void mouseClicked(MouseEvent arg0) {
@@ -191,7 +192,7 @@ public class MyDemo {
 		});
 		menuBar.add(menu_userInfo);
 		
-		JMenu menu_logOut = new JMenu("注销");
+		JMenu menu_logOut = new JMenu("娉ㄩ攢");
 		menu_logOut.addMouseListener(new MouseAdapter() {
 			@Override
 			public void mouseClicked(MouseEvent arg0) {
